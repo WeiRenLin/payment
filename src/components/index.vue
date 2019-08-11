@@ -71,13 +71,8 @@
         </ul>
       </div>
       <div class="main__step__button">
-         <router-link >
         <button class="previous">上一步</button>
-         </router-link>
-        <router-link >
           <button class="next">下一步</button>
-        </router-link>
-        
       </div>
     </div>
   </div>
