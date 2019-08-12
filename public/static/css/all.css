@@ -57,6 +57,20 @@ table {
   margin-left: 1em;
 }
 
+.index .main__convenience .description, .index .main__credit .description, .index .main__linePay .description, .index .main__unionPay .description, .index .main__atm .description {
+  display: block;
+}
+
+.index .main__convenience .description h5, .index .main__credit .description h5, .index .main__linePay .description h5, .index .main__unionPay .description h5, .index .main__atm .description h5 {
+  color: #303133;
+  line-height: 1.2;
+}
+
+.index .main__convenience .description h4, .index .main__credit .description h4, .index .main__linePay .description h4, .index .main__unionPay .description h4, .index .main__atm .description h4 {
+  color: #606266;
+  line-height: 1.2;
+}
+
 .number1 {
   margin: 1em;
 }
@@ -259,20 +273,6 @@ table {
   font-size: 5em;
   color: #4bc9c9;
   padding: 0.3em;
-}
-
-.index .main__convenience .description {
-  display: block;
-}
-
-.index .main__convenience .description h5 {
-  color: #303133;
-  line-height: 1.2;
-}
-
-.index .main__convenience .description h4 {
-  color: #606266;
-  line-height: 1.2;
 }
 
 .index .main__credit {
