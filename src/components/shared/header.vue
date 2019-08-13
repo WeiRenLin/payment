@@ -5,7 +5,9 @@
     </div>
     <div class="step">
       <ul>
-        <li class="number1">確認購物車</li>
+        
+        <li class="number1" v-if="onFinished == false">確認購物車</li>
+        <li class="number1__finished" v-else-if="onFinished == true"><i class="far fa-check-circle"></i>確認購物車</li>
         <i class="fas fa-chevron-right"></i>
         <li class="number2">選擇配送付款方式</li>
         <i class="fas fa-chevron-right"></i>
@@ -31,10 +33,15 @@
 export default {
   data(){
     return{
-     merchandisePrice:880,
+      merchandisePrice:880,
       shipPrice:60,
       totalPrice:940,
     }
+  },
+  props:['onFinished'],
+  mounted(){
+    // console.log(this.onFinished)
   }
+
 }
 </script>

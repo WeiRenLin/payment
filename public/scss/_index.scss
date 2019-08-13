@@ -49,6 +49,18 @@
                 color: #4bc9c9;
                 padding: 0.3em;
                 }
+                
+                .description{
+                    display: block;
+                    h5{
+                        color: #303133;
+                        line-height: 1.2;
+                    }
+                    h4{
+                        color: #606266;
+                        line-height: 1.2;
+                    }
+                }
         }
         &__linePay{
             display: flex;
@@ -75,6 +87,18 @@
                 padding: 2em;
                 padding-bottom: 1.3em;
                 }
+                
+                .description{
+                    display: block;
+                    h5{
+                        color: #303133;
+                        line-height: 1.2;
+                    }
+                    h4{
+                        color: #606266;
+                        line-height: 1.2;
+                    }
+                }
         }
         &__unionPay{
             display: flex;
@@ -100,6 +124,18 @@
                 color: #4bc9c9;
                 padding: 1.7em;
                 }
+                
+                .description{
+                    display: block;
+                    h5{
+                        color: #303133;
+                        line-height: 1.2;
+                    }
+                    h4{
+                        color: #606266;
+                        line-height: 1.2;
+                    }
+                }
         }
         &__atm{
             display: flex;
@@ -122,6 +158,18 @@
             i{
                 color: #4bc9c9;
                 padding: 0.3em;
+                }
+                
+                .description{
+                    display: block;
+                    h5{
+                        color: #303133;
+                        line-height: 1.2;
+                    }
+                    h4{
+                        color: #606266;
+                        line-height: 1.2;
+                    }
                 }
         }
         &__space{

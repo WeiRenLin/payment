@@ -1,6 +1,6 @@
 <template>
   <div class="index">
-    <Header></Header>
+    <Header :onFinished="onFinished"></Header>
     <div class="main">
       <div class="main__convenience" id="main__convenience">
           <div class="unckeck"  @click="check1" v-if="oncheck1 === false">
@@ -82,7 +82,10 @@
       </div>
       <div class="main__step__button">
         <button class="previous">上一步</button>
-          <button class="next">下一步</button>
+        <router-link to="/Step2">
+            <button class="next">下一步</button>
+        </router-link>
+          
       </div>
     </div>
   </div>
@@ -101,7 +104,7 @@ export default {
       oncheck3:false,
       oncheck4:false,
       oncheck5:false,
-
+      onFinished:false,
     }
   },
   ready(){

@@ -16,6 +16,16 @@ $steps:1,2,3;
             background-color: #f5f7fa;
             margin: 0.3em;
         }
+        
+    }
+    .number#{$step}__finished 
+    {
+        i{
+            color: #4bc9c9;
+            font-size: 30px;
+            margin: 0.3em;
+            line-height: 25px;
+        }
     }
        
   }
@@ -25,8 +35,7 @@ $steps:1,2,3;
         font-family: 'Noto Sans TC';
 }
 .header{
-    background: linear-gradient(to left top, #4bc9c9, #2578a8);
-    width: 100%;
+    background: linear-gradient(270deg,#82d6d6,#8bc1ef);
     height: 20vh;
     line-height: 20vh;
     z-index: -1;
